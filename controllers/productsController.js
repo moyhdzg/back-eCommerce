@@ -7,7 +7,7 @@ const getProducts = async() =>{
 }
 
 const getProductsById = async(_id) => {
-    return ProductsModel.findById(_id);
+    return ProductsModel.findById(_id)
 }
 
 const createProducts = async(product) =>{
